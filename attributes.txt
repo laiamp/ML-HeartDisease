@@ -1,0 +1,107 @@
+Complete attribute documentation:
+      
+      0 id: patient identification number
+      1 ccf: social security number (I replaced this with a dummy value of 0)
+      2 age: age in years
+      3 sex: sex (1 = male; 0 = female)
+      4 painloc: chest pain location (1 = substernal; 0 = otherwise)
+      5 painexer (1 = provoked by exertion; 0 = otherwise)
+      6 relrest (1 = relieved after rest; 0 = otherwise)
+      7 pncaden (sum of 5, 6, and 7)
+      8 cp: chest pain type
+        -- Value 1: typical angina
+        -- Value 2: atypical angina
+        -- Value 3: non-anginal pain
+        -- Value 4: asymptomatic
+     9 trestbps: resting blood pressure (in mm Hg on admission to the hospital)
+     10 htn
+     11 chol: serum cholestoral in mg/dl
+     12 smoke: I believe this is 1 = yes; 0 = no (is or is not a smoker)
+     13 cigs (cigarettes per day)
+     14 years (number of years as a smoker)
+     15 fbs: (fasting blood sugar > 120 mg/dl)  (1 = true; 0 = false)
+     16 dm (1 = history of diabetes; 0 = no such history)
+     17 famhist: family history of coronary artery disease (1 = yes; 0 = no)
+     18 restecg: resting electrocardiographic results
+        -- Value 0: normal
+        -- Value 1: having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV)
+        -- Value 2: showing probable or definite left ventricular hypertrophy by Estes' criteria
+     19 ekgmo (month of exercise ECG reading)
+     20 ekgday(day of exercise ECG reading)
+     21 ekgyr (year of exercise ECG reading)
+     22 dig (digitalis used furing exercise ECG: 1 = yes; 0 = no)
+     23 prop (Beta blocker used during exercise ECG: 1 = yes; 0 = no)
+     24 nitr (nitrates used during exercise ECG: 1 = yes; 0 = no)
+     25 pro (calcium channel blocker used during exercise ECG: 1 = yes; 0 = no)
+     26 diuretic (diuretic used used during exercise ECG: 1 = yes; 0 = no)
+     27 proto: exercise protocol
+          1 = Bruce     
+          2 = Kottus
+          3 = McHenry
+          4 = fast Balke
+          5 = Balke
+          6 = Noughton
+          7 = bike 150 kpa min/min  (Not sure if "kpa min/min" is what was written!)
+          8 = bike 125 kpa min/min  
+          9 = bike 100 kpa min/min
+         10 = bike 75 kpa min/min
+         11 = bike 50 kpa min/min
+         12 = arm ergometer
+     28 thaldur: duration of exercise test in minutes
+     29 thaltime: time when ST measure depression was noted
+     30 met: mets achieved
+     31 thalach: maximum heart rate achieved
+     32 thalrest: resting heart rate
+     33 tpeakbps: peak exercise blood pressure (first of 2 parts)
+     34 tpeakbpd: peak exercise blood pressure (second of 2 parts)
+     35 dummy
+     36 trestbpd: resting blood pressure
+     37 exang: exercise induced angina (1 = yes; 0 = no)
+     38 xhypo: (1 = yes; 0 = no)
+     39 oldpeak = ST depression induced by exercise relative to rest
+     40 slope: the slope of the peak exercise ST segment
+        -- Value 1: upsloping
+        -- Value 2: flat
+        -- Value 3: downsloping
+     41 rldv5: height at rest
+     42 rldv5e: height at peak exercise
+     43 ca: number of major vessels (0-3) colored by flourosopy
+     44 restckm: irrelevant
+     45 exerckm: irrelevant
+     46 restef: rest raidonuclid (sp?) ejection fraction
+     47 restwm: rest wall (sp?) motion abnormality
+        0 = none
+        1 = mild or moderate
+        2 = moderate or severe
+        3 = akinesis or dyskmem (sp?)
+     48 exeref: exercise radinalid (sp?) ejection fraction
+     49 exerwm: exercise wall (sp?) motion
+     50 thal: A blood disorder called thalassemia 3 = normal; 6 = fixed defect; 7 = reversable defect
+     51 thalsev: not used
+     52 thalpul: not used
+     53 earlobe: not used
+     54 cmo: month of cardiac cath (sp?)  (perhaps "call")
+     55 cday: day of cardiac cath (sp?)
+     56 cyr: year of cardiac cath (sp?)
+     57 num: diagnosis of heart disease (angiographic disease status)
+        -- Value 0: < 50% diameter narrowing
+        -- Value 1: > 50% diameter narrowing
+        (in any major vessel: attributes 59 through 68 are vessels)
+     58 lmt
+     59 ladprox
+     60 laddist
+     61 diag
+     62 cxmain
+     63 ramus
+     64 om1
+     65 om2
+     66 rcaprox
+     67 rcadist
+     68 lvx1: not used
+     69 lvx2: not used
+     70 lvx3: not used
+     71 lvx4: not used
+     72 lvf: not used
+     73 cathef: not used
+     74 junk: not used
+     75 name: last name of patient
