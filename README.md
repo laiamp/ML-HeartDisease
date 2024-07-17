@@ -14,7 +14,7 @@ The dataset used is [Heart Disease Dataset - UCI Machine Learning Repository](ht
     - University Hospital, Zurich, Switzerland (switzerland.data)
 
 
-As cleveland.data was corrupted and only a processed version of it can be found online, we limited our analysis to the remaiining three medical centers. Since all the datasets contain the same 76 variables, we combined the remaining three datasets into one.
+As cleveland.data was corrupted and only a processed version of it can be found online, we limited our analysis to the remaining three medical centers. Since all the datasets contain the same 76 variables, we combined the remaining three datasets into one.
 
 # Authors
 Roger Bargalló and Laia Mogas
