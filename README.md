@@ -11,7 +11,7 @@ The dataset used is [Heart Disease Dataset - UCI Machine Learning Repository](ht
     - Cleveland Clinic Foundation (cleveland.data)
     - Hungarian Institute of Cardiology, Budapest (hungarian.data)
     - V.A. Medical Center, Long Beach, CA (long-beach-va.data)
-     - University Hospital, Zurich, Switzerland (switzerland.data)
+    - University Hospital, Zurich, Switzerland (switzerland.data)
 
 
 As cleveland.data was corrupted and only a processed version of it can be found online, we limited our analysis to the remaiining three medical centers. Since all the datasets contain the same 76 variables, we combined the remaining three datasets into one.
